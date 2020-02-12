@@ -1,10 +1,10 @@
 /// <reference types="Cypress" />
 
-describe('testing mouseover menu', () => {
-  it('loads page', () => {
+describe('testing mouseover menu', function () {
+  it('loads page', function () {
     cy.visit('https://rahulshettyacademy.com/AutomationPractice/');
   })
-  it('chooses an option from mouseover menu', () => {
+  it('chooses an option from mouseover menu', function () {
     // Target the hidden elements not the grandparent element which is #mousehover
     cy.get('div.mouse-hover-content').invoke('show');
     cy.contains('Top').click();
