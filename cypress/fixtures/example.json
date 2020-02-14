@@ -1,4 +1,6 @@
 {
   "name": "Alice",
-  "gender": "Female"
+  "gender": "Female",
+  "productName": ["iphone X", "Samsung Note 8"],
+  "country": "Finland"
 }
