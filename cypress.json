@@ -3,6 +3,8 @@
   "chromeWebSecurity": false,
   "defaultCommandTimeout": 10000,
   "env": {
-    "angularUrl": "https://rahulshettyacademy.com/angularpractice/"
-  }
+    "angularUrl": "https://rahulshettyacademy.com/angularpractice/",
+    "CYPRESS_CACHE_FOLDER": "C:/Users/kaarl/AppData/Local/Cypress/Cache"
+  },
+  "CYPRESS_CACHE_FOLDER": "C:/Users/kaarl/AppData/Local/Cypress/Cache"
 }

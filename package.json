@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run",
+    "headedTest": "npm run test -- --headed",
+    "cypress": "$ npx cypress open",
+    "chromeTest": "npm run test -- --browser chrome",
+    "recordToDashboardTest": "npm run test -- --record --key 16a2a72f-0669-4cf0-a999-69d3b7459454"
   },
   "keywords": [],
   "author": "KaarleNurmi",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^4.0.1"
+    "cypress": "^4.0.1",
+    "mocha": "^5.2.0",
+    "mochawesome": "^4.1.0"
   }
 }
